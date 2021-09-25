@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+	background: linear-gradient(
+		236.85deg,
+		#3c6382 /* French Palette - Good Samaritan */ 47.26%,
+		#0fb9b1 /* German Palette - Turquoise Topaz */ 86.03%
+	);
+	font-family: "Roboto", sans-serif;
+}
+
+.container {
+	background: #f1f2f6;
+	color: #1e272e;
+	margin: 52px;
+	padding: 52px;
+	border-radius: 15px;
+	box-shadow: 6px 6px 6px #0e1d2f;
+}
+
+.cabecalho {
+	display: flex;
+	justify-content: space-between;
+}
+
+.perfil {
+	display: flex;
+}
+
+.perfil-foto {
+	border-radius: 400px;
+	max-height: 160px;
+	max-width: 160px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.titulo {
+	margin-left: 20px;
+}
+
+.titulo h1 {
+	font-weight: 700;
+	font-size: 36px;
+}
+
+.titulo h3 {
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.tema button {
+	align-self: flex-end;
+	font-weight: 400px;
+	font-size: 18px;
+	padding: 8px 12px;
+	border-radius: 80px;
+	background: #f6f1f2;
+}
+
+.projetos {
+	display: flex;
+	flex-direction: column;
+	background: linear-gradient(
+		236.85deg,
+		#227093 /* Spanish Palette - Devil Blue */ 47.26%,
+		#38ada9 /* French Palette - Waterfall */ 86.03%
+	);
+	margin-top: 32px;
+	padding: 26px;
+	border-radius: 10px;
+	box-shadow: 6px 6px 6px #0e1d2f;
+}
+
+.projetos-titulo {
+	list-style: none;
+	font-weight: 700px;
+	font-size: 36px;
+}
+
+.projetos-item {
+	list-style-type: none;
+	font-weight: 400px;
+	font-size: 20px;
+	line-height: 36px;
+}
+
+.projetos-item a {
+	color: #1c1c1c;
+	text-decoration: none;
+}
+
+.rodape{
+    align-items: center;
+    display: block;
+	flex-direction: column;
+	background: #f1f2f6;
+	color: #1e272e;
+}
+
+.contatos{
+    display: flex;
+    list-style: none;
+	font-weight: 700;
+	font-size: 36px;
+}
+
+.contatos-itens{
+    display: flex;
+    font-weight: 400;
+	font-size: 24px;
+    list-style-type: none;
+}
+
+.contatos-itens a{
+    text-decoration: none;
+}
+
+small{
+    margin-top:20px;
+}
+
+.dark {
+	background: linear-gradient(
+		236.85deg,
+		#243b4e /* Good Samaritan + 4 tones */ 47.26%,
+		#09726d /* Turquoise Topaz + 4 tones */ 86.03%
+	);
+}
+
+.dark .container {
+	background: #2f3640;
+	color: #dcdde1;
+}
+
+.dark .projetos {
+	background: linear-gradient(
+		236.85deg,
+		#185069 /* Devil Blue + 2 tones */ 47.26%,
+		#2c8683 /* Waterfall + 2 tones */ 86.03%
+	);
+	color: #1c1c1c;
+}
+
+.dark .tema button {
+	background: #185069;
+	color: #dcdde1;
+	border: 2px solid #dcdde1;
+}
+
+.dark .rodape{
+    background: linear-gradient(
+		236.85deg,
+		#185069 /* Devil Blue + 2 tones */ 47.26%,
+		#2c8683 /* Waterfall + 2 tones */ 86.03%
+	);
+	color: #1c1c1c;
+}
+
+.dark .contatos{
+    color: #dcdde1;
+}
+
+.dark .contatos-itens a{
+    color: #dcdde1;
+}
